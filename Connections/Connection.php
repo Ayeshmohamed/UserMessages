@@ -11,8 +11,8 @@ class Connection
     function __construct()
     {
         $this->servername = "localhost";
-        $this->username = "simplecrm_tenancy";
-        $this->password = "123456";
+        $this->username = "YOUR_USERNAME";
+        $this->password = "YOUR_Password";
         $this->db = "Guestbook";
     }
     public  function DB()
